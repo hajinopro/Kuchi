@@ -9,19 +9,32 @@
 /* Begin PBXBuildFile section */
 		7A12919B2877047900F5861B /* KuchiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12918B2877047800F5861B /* KuchiApp.swift */; };
 		7A12919C2877047900F5861B /* KuchiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12918B2877047800F5861B /* KuchiApp.swift */; };
-		7A12919D2877047900F5861B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12918C2877047800F5861B /* ContentView.swift */; };
-		7A12919E2877047900F5861B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12918C2877047800F5861B /* ContentView.swift */; };
+		7A12919D2877047900F5861B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12918C2877047800F5861B /* HomeView.swift */; };
+		7A12919E2877047900F5861B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12918C2877047800F5861B /* HomeView.swift */; };
 		7A12919F2877047900F5861B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A12918D2877047900F5861B /* Assets.xcassets */; };
 		7A1291A02877047900F5861B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A12918D2877047900F5861B /* Assets.xcassets */; };
+		7A1291AB2877059800F5861B /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1291AA2877059800F5861B /* WelcomeView.swift */; };
+		7ACC5F232879154D00A7E817 /* HorizontallyAlignedLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACC5F222879154D00A7E817 /* HorizontallyAlignedLabelStyle.swift */; };
+		7ACC5F28287918B500A7E817 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACC5F25287918B500A7E817 /* UserManager.swift */; };
+		7ACC5F29287918B500A7E817 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACC5F25287918B500A7E817 /* UserManager.swift */; };
+		7ACC5F2A287918B500A7E817 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACC5F26287918B500A7E817 /* Profile.swift */; };
+		7ACC5F2B287918B500A7E817 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACC5F26287918B500A7E817 /* Profile.swift */; };
+		7ACC5F2C287918B500A7E817 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACC5F27287918B500A7E817 /* Settings.swift */; };
+		7ACC5F2D287918B500A7E817 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACC5F27287918B500A7E817 /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7A12918B2877047800F5861B /* KuchiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KuchiApp.swift; sourceTree = "<group>"; };
-		7A12918C2877047800F5861B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7A12918C2877047800F5861B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		7A12918D2877047900F5861B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A1291922877047900F5861B /* Kuchi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kuchi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A1291982877047900F5861B /* Kuchi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kuchi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A12919A2877047900F5861B /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		7A1291AA2877059800F5861B /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		7ACC5F222879154D00A7E817 /* HorizontallyAlignedLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontallyAlignedLabelStyle.swift; sourceTree = "<group>"; };
+		7ACC5F25287918B500A7E817 /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		7ACC5F26287918B500A7E817 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		7ACC5F27287918B500A7E817 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +67,10 @@
 		7A12918A2877047800F5861B /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				7ACC5F24287918B500A7E817 /* Profile */,
+				7A1291A92877055800F5861B /* Welcome */,
 				7A12918B2877047800F5861B /* KuchiApp.swift */,
-				7A12918C2877047800F5861B /* ContentView.swift */,
+				7A12918C2877047800F5861B /* HomeView.swift */,
 				7A12918D2877047900F5861B /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -76,6 +91,25 @@
 				7A12919A2877047900F5861B /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		7A1291A92877055800F5861B /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				7A1291AA2877059800F5861B /* WelcomeView.swift */,
+				7ACC5F222879154D00A7E817 /* HorizontallyAlignedLabelStyle.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		7ACC5F24287918B500A7E817 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				7ACC5F25287918B500A7E817 /* UserManager.swift */,
+				7ACC5F26287918B500A7E817 /* Profile.swift */,
+				7ACC5F27287918B500A7E817 /* Settings.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,7 +210,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A12919D2877047900F5861B /* ContentView.swift in Sources */,
+				7A12919D2877047900F5861B /* HomeView.swift in Sources */,
+				7ACC5F2A287918B500A7E817 /* Profile.swift in Sources */,
+				7A1291AB2877059800F5861B /* WelcomeView.swift in Sources */,
+				7ACC5F232879154D00A7E817 /* HorizontallyAlignedLabelStyle.swift in Sources */,
+				7ACC5F2C287918B500A7E817 /* Settings.swift in Sources */,
+				7ACC5F28287918B500A7E817 /* UserManager.swift in Sources */,
 				7A12919B2877047900F5861B /* KuchiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -185,8 +224,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A12919E2877047900F5861B /* ContentView.swift in Sources */,
+				7ACC5F29287918B500A7E817 /* UserManager.swift in Sources */,
+				7ACC5F2B287918B500A7E817 /* Profile.swift in Sources */,
+				7A12919E2877047900F5861B /* HomeView.swift in Sources */,
 				7A12919C2877047900F5861B /* KuchiApp.swift in Sources */,
+				7ACC5F2D287918B500A7E817 /* Settings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
